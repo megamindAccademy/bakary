@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya";
+}
+nav {
+    background-color: rgba(0,0,0,.15);
+    padding: 10px 0 15px;
+    position: fixed;
+    z-index: 11111;
+    top:0;
+    left:0;
+    right:0;
+}
+.container {
+    width:90%;
+    margin: auto;
+}
+header {
+    background-image:url("../images/drew-coffman-1872.jpg");
+    height: 100vh;    /*view port height*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .list {
+    list-style: none;
+} 
+nav .left-part {
+width:60%;
+float:left;
+padding-top: 10px;
+}
+nav .right-part {
+    width:40%;
+    float:right;
+    padding-top: 17px;
+}
+.list li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list li a{
+text-decoration: none;
+font-size:20px;
+color:#c2bfbf;
+}
+.list li a:hover {
+    color:#8e7754;
+    cursor: pointer;
+}
+header .text {
+    width:50%;
+    text-align: center;
+    color:#fff;
+    margin: auto;
+    transform: translateY(100%);
+}
+button{
+    margin-top: 15px;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 5px;
+    color:#fff;
+    border:1px solid #fff;
+     background-color: transparent;     /*opacity */
+}
+.learn-more {
+background-color: #8e7754;
+border:none;
+margin-right: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color:#000;
+}
+h1 {
+    font-size: 5em;    /*time */
+    font-weight: 400;
+}
+header .text p {
+    font-size: 25px;
+}
+/*****************************************whoWeAre************************************************/
+.whoWeAre {
+    padding: 55px 0;
+}
+.location {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+ .whoWeAre img ,.location img{
+    width:100%;
+    margin: 15px 0;
+}
+.whoWeAre .image {
+    padding-right: 20px;
+}
+.whoWeAre .txt {
+    transform: translateY(15%);
+    padding-left: 30px;
+}
+.whoWeAre .txt .icon-list, .contact .icon-list  {
+    list-style: none;
+}
+.whoWeAre .txt .icon-list li,  .contact .icon-list li {
+    line-height: 50px;
+}
+.whoWeAre h2 ,.location h2 {
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.whoWeAre p,.location p{
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+.whoWeAre .part, .location .part{
+    float:left;
+    width:50%;
+    color: #686868;
+    line-height: 1.86em;
+}
+.location .txt{
+    transform: translateY(45%);
+    padding-right: 20px;
+}
+.location .image{
+    padding-left: 30px;
+
+}
+  .whoWeAre .clr , .location .clr , .clr{
+    clear:both;
+}
+.contact {
+    background-color: #403d38;
+}
+.contact .container {
+    width:26%;
+    margin: auto;
+    padding: 30px 0 20px;
+}
+.contact .container ul li span{
+ color:#fff;
+ font-size:18px;
+}
